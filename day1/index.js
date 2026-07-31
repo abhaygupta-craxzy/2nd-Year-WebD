@@ -1,0 +1,24 @@
+const app = require('./app.js');
+console.log(app);
+
+
+// var a = 20;
+// var b = 20;
+// var c = 20;
+// console.log(a+b+c);
+
+
+var x = 20;
+if(x == 20){
+    console.log("x is 20");
+}
+else{
+    console.log("X is not 20");
+}
+
+// const arr = [1,2,3,4,5];
+// for(var i = 0; i < arr.length;i++){
+//     console.log(arr[1]);
+//     console.log(arr[2]);
+// }
+
