@@ -32,5 +32,6 @@ const emp = {
     }
 };
 emp.display();
-
+emp.course = "B.tech";
+emp.display();
 
