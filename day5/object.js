@@ -14,6 +14,7 @@ const emp = {
     }
 }
 
+
 emp.display();
 emp.in_sal();
 emp.show();
