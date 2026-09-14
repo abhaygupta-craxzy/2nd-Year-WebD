@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sum using Rest Operator</title>
+</head>
+
+<body>
+
+  <script>
+    function sum(...numbers) {
+      return numbers.reduce((total, num) => total + num, 0);
+    }
+
+    const input = prompt("Enter numbers:");
+
+    const numbers = input.split(" ").map(num => parseInt(num));
+
+    document.write("Sum: " + sum(...numbers));
+  </script>
+
+</body>
+
+</html>
+
