@@ -42,3 +42,4 @@ function College(name) {
 
 let c = new College("ABC College");
 c.display();
+
